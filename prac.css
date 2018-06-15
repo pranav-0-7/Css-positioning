@@ -1,53 +1,4 @@
- /*p,a{
-	width: 100%;
-	margin: 1px;
-	padding: 10px;
-	border: 1px solid #000;
-	display: inline-block;
-	background: #eee;
-	font-family: arial;
-	line-height: 1.4em;
-	text-align: center;
-}
-.black p{
 
-	background: black;
-	color: white;
-	float: left;
-	display: inline-block;
-	line-height: 1.4em;
-
-}
-.blue p{
-	background: blue;
-	color: white;
-	line-height: 1.4em;
-	display: inline-block;
-	
-}
-
-.red p{
-	background: red;
-	color: white;
-	line-height: 1.4em;
-
-	display: inline-block;
-
-	
-}
-.total{
-	border: 1px solid black;
-	margin: 30px;
-	padding: 20px;
-	clear: both
-}
-.content{
-	margin-top: 10px
-	border: 1px solid black;
-	clear: both;
-
-}
-*/
 .wrapper{
 	content:"";
 	display: block;
@@ -132,9 +83,9 @@ background: #f2f2f2;
 #banner{
 	position: relative;
 	overflow: hidden;
-	max-height:400px;
 	margin: 1%; 
 	z-index: 0;
+	width: 100%;
 }
 
 #banner h2{
